@@ -2,11 +2,11 @@ import pandas as pd
 import plotly.graph_objects as go
 import plotly.io as pio
 
-# Charger les données depuis le fichier Excel
+# Charge data from excel (uncomment the file_path we want to study)
 # excel_file_path = r'C:\Users\Camélia\Documents\TFE\Livrables\TRAJ\Trajectory_11414.xlsx'
 excel_file_path = r'C:\Users\Camélia\Documents\TFE\Livrables\TRAJ\Trajectory_11416.xlsx'
 
-sheet_name = 'Distance_finale_2'
+sheet_name = 'Distance_finale_2'#replace by the sheet number I want to plot
 label = 'Performance trajectory'
 data = pd.read_excel(excel_file_path, sheet_name=sheet_name)
 
