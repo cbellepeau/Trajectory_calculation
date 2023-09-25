@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 import matplotlib.animation as animation
 
-# Charger les données depuis le fichier Excel
+# Charger les données depuis le fichier Excel, penser à décommenter le chemin du fichier qui m'intéresse
 # excel_file_path = r'C:\Users\Camélia\Documents\TFE\Livrables\TRAJ\Trajectory_11414.xlsx'
 excel_file_path = r'C:\Users\Camélia\Documents\TFE\Livrables\TRAJ\Trajectory_11416.xlsx'
 
